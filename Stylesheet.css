@@ -1,0 +1,69 @@
+.cream-background {
+  background-color: #ffcc99;
+  z-index: -1;
+}
+.grey-background {
+  background-color: grey
+}
+.custom-font {
+  font-family: Arial, Helvetica, sans-serif;
+  color: red;
+}
+.lightblue-background {
+  background-color: #ccffff
+}
+.white-background {
+  background-color: #ffffff
+}
+.solid-border {
+  border-style: solid;
+}
+.ridged-border {
+  border-style: ridge
+}
+.error-message {
+  margin: 10px;
+  width: 180px;
+  height: 40px;
+  font-size: 4vw;
+}
+.warning-message {
+  margin: 10px;
+  width: 180px;
+  height: 40px;
+  font-size: 3vw;
+  padding: 5px;
+}
+.submitreset-button {
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+.title {
+  left: 0;
+
+}
+.check-button {
+  border-radius: 15px;
+  margin-bottom: 5px;
+  margin-top: 10px
+}
+.percent-box {
+  width: 40px;
+  margin-top: 5px
+}
+.clock {
+  background-color: #ccffff;
+  border-radius: 10px;
+  width: 80px;
+  padding: 5px;
+  border-style: ridge
+}
+.bottom-half {
+  z-index: 1;
+}
+.percent-calculator {
+  margin-bottom: 10px
+}
+.hr {
+  height: 5px
+}

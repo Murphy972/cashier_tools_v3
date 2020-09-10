@@ -1,0 +1,106 @@
+<!doctype html>
+
+<html lang="en">
+      <head>
+          <title>Cashier Tools</title>
+          <meta http-equiv="x-ua-compatible" content="ie=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+          <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+          <meta content="utf-8" http-equiv="encoding">
+          <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+          <link rel="stylesheet" href="Stylesheet.css">
+          <link rel="stylesheet" href="secondarycss.css">
+      </head>
+  <body>
+    <div id="app" class="container cream-background mh-100"
+      <header>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-8 float-left text-small-left">
+              <h1 class="title">Cashier Tools</h1>
+            </div>
+            <div class="col-sm-4">
+              <div class="float-right clock">
+                <p id="the-time">
+                  8:56:00 pm
+                </p>
+              </div>
+            </div>
+            <!-- <div class="col-sm-8">
+              <div class="float-left">
+                <a href="log.html" class="nav-link btn lightblue-background solid-border" href="log.html" disabled>Log</a>
+              </div>
+            </div> -->
+          </div>
+        </div>
+          <hr/ class="hr">
+      </header>
+        <!-- A,B,C,E,F container -->
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="float-left">
+              <p id="trans-count">
+                Trans Count:
+              </p>
+              <br/>
+              <p id="signup-count">
+                Signup Count:
+              </p>
+              <br/>
+              <p id="scan-percent">
+                Scan Percentage:
+              </p>
+            </div>
+          </div>
+          <div class="col percent-calculator">
+            <div class="float-right">
+              <div class="container grey-background solid-border">
+                <input id="percent" autocomplete="off" type="text" class="percent-box" style="width: 40px">
+                <p>% of</p>
+                <input id="percent-of" autocomplete="off" type="text" style="width: 40px">
+                <p id="percent-result" class="white-background" style="margin-top: 10px">0</p>
+                <div class="row justify-content-center">
+                  <div class="col">
+                    <button id="percent-check" class="ridged-border check-button cream-background solid-border" >Check</button>
+                  </div>
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Input Container -->
+        <div id="appbottom" class="bottom-half container lightblue-background solid-border">
+          <div class="row">
+            <div class="col">
+              <input id="new-signup" type="checkbox"><p>Signup<p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <input id="new-cardscan" type="checkbox"><p>Card Scan<p>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col ">
+              <button id="trans-btn" class="submitreset-button btn cream-background solid-border">Submit</button>
+            </div>
+            <div class="col">
+              <button id="reset-btn" class="submitreset-button btn cream-background solid-border">Reset</button>
+            </div>
+          </div>
+        </div>
+      </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="trans-counter.js"></script>
+  <script type="text/javascript" src="Clock.js"></script>
+  <script type="text/javascript" src="Percent-calculator.js"></script>
+  <script src="https://unpkg.com/swup@latest/dist/swup.min.js"></script>  
+  <script type="text/javascript" src="animation.js"></script>
+  
+  </body>
+</html>
